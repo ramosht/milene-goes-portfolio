@@ -2,6 +2,7 @@
 
 Esse é um boilerplate NextJS, para a criação de sites estáticos. Nele, já está configurado:
 
+- Typescript
 - Eslint / Prettier / Editorconfig
 - Husky e Lint-staged
 - Testes com jest
