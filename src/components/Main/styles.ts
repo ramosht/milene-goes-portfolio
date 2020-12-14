@@ -18,7 +18,7 @@ export const Wrapper = styled.main<WrapperProps>`
 `;
 
 export const Logo = styled.img`
-  width: 25rem;
+  width: 20rem;
   margin-bottom: 2rem;
 `;
 
@@ -34,5 +34,5 @@ export const Description = styled.h2`
 
 export const Illustration = styled.img`
   margin-top: 2rem;
-  width: min(25rem, 100%);
+  width: min(15rem, 100%);
 `;
