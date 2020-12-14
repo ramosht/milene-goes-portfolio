@@ -22,10 +22,11 @@ exports[`<Main /> should render a heading 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 .c1 {
-  width: 25rem;
+  width: 20rem;
   margin-bottom: 2rem;
 }
 
@@ -41,7 +42,7 @@ exports[`<Main /> should render a heading 1`] = `
 
 .c4 {
   margin-top: 2rem;
-  width: min(25rem,100%);
+  width: min(15rem,100%);
 }
 
 <div>
