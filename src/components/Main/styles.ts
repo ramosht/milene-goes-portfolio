@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.main`
-  background-color: #06092b;
+type WrapperProps = {
+  backgroundColor: string;
+};
+
+export const Wrapper = styled.main<WrapperProps>`
+  background-color: ${props => props.backgroundColor};
   color: #fff;
   width: 100%;
   height: 100%;
@@ -10,6 +14,7 @@ export const Wrapper = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 `;
 
 export const Logo = styled.img`
