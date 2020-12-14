@@ -1,0 +1,27 @@
+name: ci
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Install dependencies
+        uses: yarn install
+
+      - name: Linting
+        uses: yarn lint
+
+      - name: Testing
+        uses: yarn test
+
+      - name: Building
+        uses: yarn build
