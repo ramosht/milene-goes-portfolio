@@ -1,11 +1,10 @@
 import Link from 'next/link';
-import { useState, useCallback } from 'react';
+import { useState } from 'react';
 import * as S from './styles';
 import '@animated-burgers/burger-rotate/dist/styles.css';
 import { LinkedinWithCircle } from '@styled-icons/entypo-social/LinkedinWithCircle';
 import MediaQuery from 'react-responsive';
 import { lg } from '../../../styles/breakpoints';
-import { enableBodyScroll, disableBodyScroll } from 'body-scroll-lock';
 
 type ComponentProps = {
   current: string;
@@ -13,17 +12,6 @@ type ComponentProps = {
 
 const Component: React.FC<ComponentProps> = ({ current }) => {
   const [burgerIsOpen, setBurgerIsOpen] = useState(false);
-
-  const handleMenuToggle = useCallback(() => {
-    const targetElement = document.querySelector('body');
-    setBurgerIsOpen(!burgerIsOpen);
-
-    if (burgerIsOpen) {
-      enableBodyScroll(targetElement);
-    } else {
-      disableBodyScroll(targetElement);
-    }
-  }, [burgerIsOpen]);
 
   return (
     <S.Wrapper>
