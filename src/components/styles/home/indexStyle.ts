@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { md } from '../../styles/breakpoints';
-import { colors } from '../../styles/variables';
+import { md } from '../../../../styles/breakpoints';
+import { colors } from '../../../../styles/variables';
 
 export const Title = styled.h1`
   text-shadow: 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.5);

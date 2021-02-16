@@ -8,7 +8,7 @@ import LinkSection from '../../components/LinkSection';
 import SidebarMenu from '../../components/SidebarMenu';
 import PageWrapper from '../../components/PageWrapper';
 
-import * as S from './styles';
+import * as S from '../../components/styles/formacao/styles';
 
 const FormacaoPage = () => {
   return (

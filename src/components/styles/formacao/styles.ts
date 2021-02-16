@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { lg } from '../../../styles/breakpoints';
-import { colors } from '../../../styles/variables';
+import { colors } from '../../../../styles/variables';
 
 export const TitleLanguage = styled.h3`
   display: flex;

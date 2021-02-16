@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { lg } from '../../../styles/breakpoints';
 
 export const WrapperAbout = styled.div``;
 

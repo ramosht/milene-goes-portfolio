@@ -1,4 +1,4 @@
-import * as S from './indexStyle';
+import * as S from '../components/styles/home/indexStyle';
 import Link from 'next/link';
 
 import Main from '../template/Main';

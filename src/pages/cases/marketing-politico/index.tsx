@@ -7,7 +7,7 @@ import PageWithSidebar from '../../../components/PageWithSidebar';
 import PageWrapper from '../../../components/PageWrapper';
 import Lightbox from '../../../components/Lightbox';
 
-import * as S from './styles';
+import * as S from '../../../components/styles/marketing-politico/styles';
 import { md } from '../../../../styles/breakpoints';
 
 type Case = {

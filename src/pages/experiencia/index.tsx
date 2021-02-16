@@ -1,6 +1,5 @@
 import Main from '../../template/Main';
 import Title from '../../components/Title';
-import PageWithSidebar from '../../components/PageWithSidebar';
 import Experiencia from '../../components/Experiencia';
 
 const ExperienciaPage = () => {
