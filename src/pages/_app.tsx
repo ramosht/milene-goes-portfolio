@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import GlobalStyles from '../styles/global';
+import '../../styles/globals.css';
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -21,6 +22,11 @@ function App({ Component, pageProps }: AppProps) {
         <meta
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet"
         />
         <link rel="manifest" href="/manifest.json" />
       </Head>

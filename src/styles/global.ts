@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { colors } from '../../styles/variables';
 
 const global = createGlobalStyle`
   // CSS Reset
@@ -35,11 +36,18 @@ const global = createGlobalStyle`
     border-spacing: 0;
   }
   html, body, #__next {
-    height: 100%;
     width: 100%;
+    font-size: 16px;
+    color: ${colors.black};
+    overflow-x: hidden;
+  }
+  html, #__next {
+    width: 100%;
+    font-size: 16px;
+    color: ${colors.black}
   }
   body{
-    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Libre Baskerville', serif;
   }
   img {
     max-width: 100%;
