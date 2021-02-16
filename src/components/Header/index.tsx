@@ -25,7 +25,7 @@ const Component: React.FC<ComponentProps> = ({ current }) => {
         <MediaQuery maxWidth={lg}>
           <S.MenuButton
             isOpen={burgerIsOpen}
-            onClick={() => handleMenuToggle()}
+            onClick={() => setBurgerIsOpen(!burgerIsOpen)}
           />
         </MediaQuery>
 
