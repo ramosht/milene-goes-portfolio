@@ -9,7 +9,7 @@ const ExperienciaPage = () => {
 
       <Experiencia
         title="Assessora de imprensa"
-        company="CRB Construtora / JOB"
+        company="CRB Construtora / Job"
         period="11/2020 a 02/2021"
         description="Assessoria de imprensa: definição de pautas e estratégia de comunicação; produção de releases; follow-up e acompanhamento de entrevistas"
       />

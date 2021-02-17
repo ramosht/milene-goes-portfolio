@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import Data from '../../../config/data';
 import Main from '../../../template/Main';
-import Title from '../../../components/Title';
 import MenuCases from '../../../components/MenuCases';
 import Cases from '../../../components/Cases';
 import Case from '../../../components/Case';
@@ -28,7 +27,6 @@ const PageCases = () => {
 
   return (
     <Main current="jobs">
-      <Title>Assessoria de Imprensa</Title>
       <PageWithSidebar>
         <MenuCases current="assessoria-de-imprensa" />
 

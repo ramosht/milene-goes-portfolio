@@ -12,12 +12,14 @@ import * as S from '../../components/styles/formacao/styles';
 
 const FormacaoPage = () => {
   return (
-    <Main current="about">
+    <Main current="formacao">
       <Title>Formação</Title>
       <PageWithSidebar>
         <SidebarMenu>
           <LinkSection to="/interesses">Interesses</LinkSection>
-          <LinkSection to="/sobre">Quem sou eu?</LinkSection>
+          <LinkSection to="/sobre">Sobre</LinkSection>
+          <LinkSection to="/depoimentos">Depoimentos</LinkSection>
+          <LinkSection to="/premiacoes">Premiações</LinkSection>
         </SidebarMenu>
 
         <PageWrapper>
@@ -60,19 +62,27 @@ const FormacaoPage = () => {
           <Title>Línguas</Title>
           <S.Language>
             <S.TitleLanguage>
-              Inglês <Level level={3} />
+              Inglês <span className="category">Intermediário</span>
             </S.TitleLanguage>
-            <span className="category">Intermediário - cursando</span>
+            <ul>
+              <li>Cursando</li>
+            </ul>
+            <Level level={3} />
           </S.Language>
           <S.Language>
             <S.TitleLanguage>
-              Espanhol <Level level={3} />
+              Espanhol <span className="category">Intermediário</span>
             </S.TitleLanguage>
-            <span className="category">Intermediário</span>
+            <ul>
+              <li>Escrita</li>
+              <li>Leitura</li>
+              <li>Conversação</li>
+            </ul>
             <p>
               Prática em escrita, leitura e conversação com experiência de
               comunicação com seis países da América Latina.
             </p>
+            <Level level={2} />
           </S.Language>
 
           <Title>Conhecimentos</Title>

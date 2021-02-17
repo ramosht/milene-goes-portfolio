@@ -30,7 +30,7 @@ const PageCases = () => {
 
   return (
     <Main current="jobs">
-      <Title>Copywriting e Estratégia de SEO</Title>
+      <Title>Cases de trabalhos</Title>
 
       <Description>
         Os textos foram produzidos para o blog Siga Pregão. No entanto, foram

@@ -17,7 +17,7 @@ const Component: React.FC<ComponentProps> = ({
   return (
     <S.Wrapper isHome={isHome}>
       <Header current={current} />
-      <S.Content className="container" isHome={isHome}>
+      <S.Content className="container-content" isHome={isHome}>
         {children}
       </S.Content>
       <Footer />

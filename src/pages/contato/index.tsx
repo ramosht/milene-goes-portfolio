@@ -4,7 +4,7 @@ import Title from '../../components/Title';
 
 const Contato = () => {
   return (
-    <Main current="about">
+    <Main current="contact">
       <Title>Contato</Title>
       <S.ItensContato>
         <S.ItemContato>

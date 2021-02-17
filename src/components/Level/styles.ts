@@ -6,7 +6,7 @@ type BulletProps = {
 };
 
 export const Wrapper = styled.span`
-  margin-left: 1rem;
+  margin-top: 0.5rem;
   display: flex;
 `;
 

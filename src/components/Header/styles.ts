@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { colors, fonts } from '../../../styles/variables';
 /* @ts-ignore */
 import Burger from '@animated-burgers/burger-rotate';
-import { lg } from '../../../styles/breakpoints';
+import { xl } from '../../../styles/breakpoints';
 
 type MenuProps = {
   showMenu: boolean;
@@ -38,6 +38,8 @@ export const Wrapper = styled.div`
 export const LogoWrapper = styled.h1`
   z-index: 9999;
   cursor: pointer;
+  position: relative;
+  bottom: -0.25rem;
 `;
 
 export const MenuButton = styled(Burger)`
@@ -87,7 +89,7 @@ export const Menu = styled.nav<MenuProps>`
     }
   }
 
-  @media screen and (min-width: ${lg}px) {
+  @media screen and (min-width: ${xl}px) {
     position: relative;
     top: initial;
     bottom: initial;

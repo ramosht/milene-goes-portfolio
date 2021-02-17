@@ -36,6 +36,28 @@ a {
     width: 970px;
   }
 }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container-content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-content {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-content {
+    width: 970px;
+  }
+}
 
 p {
   font-size: 0.915em;

@@ -45,7 +45,7 @@ const PageCases = () => {
 
   return (
     <Main current="jobs">
-      <Title>Marketing Político</Title>
+      <Title>Cases de trabalhos</Title>
       <PageWithSidebar>
         <MenuCases current="marketing-politico" />
 

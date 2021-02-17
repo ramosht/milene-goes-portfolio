@@ -27,12 +27,14 @@ const Sobre = () => {
   }, []);
 
   return (
-    <Main current="about">
+    <Main current="interesses">
       <Title>Interesses</Title>
       <PageWithSidebar>
         <SidebarMenu>
           <LinkSection to="/formacao">Formação</LinkSection>
-          <LinkSection to="/sobre">Quem sou eu?</LinkSection>
+          <LinkSection to="/sobre">Sobre</LinkSection>
+          <LinkSection to="/depoimentos">Depoimentos</LinkSection>
+          <LinkSection to="/interesses">Interesses</LinkSection>
         </SidebarMenu>
 
         <PageWrapper>

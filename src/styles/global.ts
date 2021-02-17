@@ -47,7 +47,7 @@ const global = createGlobalStyle`
     color: ${colors.black}
   }
   body{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
   }
   img {
     max-width: 100%;

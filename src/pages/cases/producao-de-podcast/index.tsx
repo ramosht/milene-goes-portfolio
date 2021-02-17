@@ -29,7 +29,7 @@ const PageCases = () => {
 
   return (
     <Main current="jobs">
-      <Title>Produção de Podcast</Title>
+      <Title>Cases de trabalhos</Title>
       <PageWithSidebar>
         <MenuCases current="producao-de-podcast" />
 

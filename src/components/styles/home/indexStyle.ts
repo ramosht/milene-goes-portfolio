@@ -11,6 +11,22 @@ export const Title = styled.h1`
   @media screen and (min-width: ${md}px) {
     font-size: 4rem;
   }
+
+  .linkedin {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: ${colors.highlight};
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 `;
 
 export const Description = styled.p`
@@ -32,29 +48,11 @@ export const Wrapper = styled.div`
   color: ${colors.white};
 `;
 
-export const MenuHome = styled.ul`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  @media screen and (min-width: ${md}px) {
-    flex-direction: row;
-  }
-`;
-
-export const MenuItem = styled.li`
-  margin-bottom: 0.5rem;
-
-  @media screen and (min-width: ${md}px) {
-    margin: 0 0.5rem;
-  }
-
+export const CurriculoButton = styled.div`
   a {
     display: block;
     padding: 0.75rem;
     background: ${colors.highlight};
-    min-width: 12rem;
     color: ${colors.white};
     text-align: center;
     border-radius: 0.25rem;

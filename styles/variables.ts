@@ -11,5 +11,5 @@ export const colors = {
 };
 
 export const fonts = {
-  primary: 'Libre Baskerville',
+  primary: 'Open sans',
 };

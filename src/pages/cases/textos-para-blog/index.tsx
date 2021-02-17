@@ -29,7 +29,7 @@ const PageCases = () => {
 
   return (
     <Main current="jobs">
-      <Title>Textos para Blog</Title>
+      <Title>Cases de trabalhos</Title>
 
       <Description>
         Os textos foram escritos Descriptionor mim para o blog da Faculdade de
