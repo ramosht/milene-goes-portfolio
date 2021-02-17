@@ -11,16 +11,7 @@ const Footer: React.FC = () => {
   return (
     <S.Wrapper>
       <div className="container">
-        <p>
-          &copy; {currentYear} Milene Góes.{' '}
-          <MediaQuery maxWidth={md}>
-            <br />
-          </MediaQuery>{' '}
-          Desenvolvido por{' '}
-          <a href="https://guiramos.dev" target="_blank" rel="noreferrer">
-            Guilherme Ramos
-          </a>
-        </p>
+        <p>&copy; {currentYear} Milene Góes.</p>
       </div>
     </S.Wrapper>
   );
