@@ -8,7 +8,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <GlobalStyles />
       <Head>
-        <title>React Avançado - Boilerplate</title>
+        <title>Milene Góes | Portfólio</title>
         <link
           rel="shortcut icon"
           href="/img/icon-512.png"
@@ -21,7 +21,7 @@ function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+          content="Uma contadora de boas histórias. Gosto de ouvir, falar e escrever: sou uma entusiasta das palavras e apaixonada por pessoas!"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

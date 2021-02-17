@@ -1,25 +1,41 @@
-import * as S from '../../components/styles/interesses/styles';
+import * as S from '../../components/styles/depoimentos/styles';
 import Main from '../../template/Main';
 import Title from '../../components/Title';
-import LinkSection from '../../components/LinkSection';
-import SidebarMenu from '../../components/SidebarMenu';
-import PageWithSidebar from '../../components/PageWithSidebar';
-import PageWrapper from '../../components/PageWrapper';
+import Depoimento from '../../components/Depoimento';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { ChevronRight } from '@styled-icons/boxicons-regular/ChevronRight';
+import { ChevronLeft } from '@styled-icons/boxicons-regular/ChevronLeft';
 
 const Page = () => {
+  const settings = {
+    dots: true,
+    slidesToShow: 1,
+    nextArrow: <ChevronRight />,
+    prevArrow: <ChevronLeft />,
+    infinite: true,
+  };
+
   return (
     <Main current="depoimentos">
       <Title>Depoimentos</Title>
-      <PageWithSidebar>
-        <SidebarMenu>
-          <LinkSection to="/formacao">Formação</LinkSection>
-          <LinkSection to="/sobre">Sobre</LinkSection>
-          <LinkSection to="/premiacoes">Premiações</LinkSection>
-          <LinkSection to="/interesses">Interesses</LinkSection>
-        </SidebarMenu>
 
-        <PageWrapper></PageWrapper>
-      </PageWithSidebar>
+      <S.Wrapper>
+        <Slider {...settings}>
+          <Depoimento
+            image="/img/depoimentos/heloisa-vendramini.jpg"
+            name="Heloísa Vendramini, Gerente Senac Campinas"
+            text="Milene é uma profissional altamente capacitada e carismática, capaz de inspirar as pessoas a se comunicarem melhor e provocar mudanças significativas e positivas, tanto para o indivíduo como a sociedade. Tê-la como assessora de imprensa foi uma experiência incrível."
+          />
+
+          <Depoimento
+            image="/img/depoimentos/rodrigo-buzin.jpeg"
+            name="Rodrigo Buzin Siqueira do Amaral, Gerente Senac Sorocaba"
+            text="Nossa instituição preza muito pela qualidade da comunicação e por um relacionamento assertivo com os diversos veículos de imprensa. A Milene prestou serviços durante um bom tempo conosco, sempre coerente com nossas premissas."
+          />
+        </Slider>
+      </S.Wrapper>
     </Main>
   );
 };

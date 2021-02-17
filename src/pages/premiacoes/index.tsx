@@ -1,4 +1,3 @@
-import * as S from '../../components/styles/interesses/styles';
 import Main from '../../template/Main';
 import Title from '../../components/Title';
 import LinkSection from '../../components/LinkSection';
