@@ -37,7 +37,11 @@ const Contato = () => {
             </a>
           </S.ItemContato>
           <S.ItemContato>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/milene-góes"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="/img/contact/linkedin.png" alt="Ícone whatsapp" />
               <span>Milene Góes</span>
             </a>

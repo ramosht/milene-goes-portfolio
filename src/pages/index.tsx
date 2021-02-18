@@ -13,7 +13,12 @@ export default function Home() {
             <S.Title>
               Milene Góes{' '}
               <span>
-                <a className="linkedin" href="#">
+                <a
+                  className="linkedin"
+                  href="https://www.linkedin.com/in/milene-góes"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Linkedin size={22} color={colors.white} />
                 </a>
               </span>
