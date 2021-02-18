@@ -79,7 +79,7 @@ const Component: React.FC<ComponentProps> = ({ current }) => {
         </S.Link>
 
         <S.Link isCurrent={current === 'video'}>
-          <LinkSection to="/cases/marketing-politico">Vídeo</LinkSection>
+          <LinkSection to="/cases/video">Vídeo</LinkSection>
         </S.Link>
       </SidebarMenu>
     </S.Wrapper>
