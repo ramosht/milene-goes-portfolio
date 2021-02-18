@@ -11,7 +11,7 @@ const Sobre = () => {
   return (
     <>
       <Head>
-        <title>Milene Góes | Sobre</title>
+        <title>Milene Góes | Sobre mim</title>
         <meta
           name="description"
           content="Uma contadora de boas histórias. Gosto de ouvir, falar e escrever: sou uma entusiasta das palavras e apaixonada por pessoas!"

@@ -9,6 +9,7 @@ import Lightbox from '../../../components/Lightbox';
 
 import * as S from '../../../components/styles/producao-de-conteudo/styles';
 import { md } from '../../../../styles/breakpoints';
+import Head from 'next/head';
 
 type Case = {
   id: string;
@@ -44,38 +45,47 @@ const PageCases = () => {
   }, []);
 
   return (
-    <Main current="jobs">
-      <Title>Cases de trabalhos</Title>
-      <PageWithSidebar>
-        <MenuCases current="producao-de-conteudo" />
+    <>
+      <Head>
+        <title>Milene Góes | Cases: Produção de Conteúdo</title>
+        <meta
+          name="description"
+          content="Cases de trabalhos que realizei em veículos de comunicação e em todas as áreas em que atuei"
+        />
+      </Head>
+      <Main current="jobs">
+        <Title>Cases de trabalhos</Title>
+        <PageWithSidebar>
+          <MenuCases current="producao-de-conteudo" />
 
-        <PageWrapper>
-          <S.Gallery>
-            {cases.map((item, index) => (
-              <S.Thumbnail
-                key={item.id}
-                src={item.original}
-                alt={item.title}
-                onClick={() => openViewer(index)}
-              />
-            ))}
-          </S.Gallery>
-
-          {viewportWidth >= md && (
-            <>
-              {viewerIsOpen && (
-                <Lightbox
-                  startIndex={startIndex}
-                  images={cases}
-                  setStartIndex={setStartIndex}
-                  setViewerIsOpen={setViewerIsOpen}
+          <PageWrapper>
+            <S.Gallery>
+              {cases.map((item, index) => (
+                <S.Thumbnail
+                  key={item.id}
+                  src={item.original}
+                  alt={item.title}
+                  onClick={() => openViewer(index)}
                 />
-              )}
-            </>
-          )}
-        </PageWrapper>
-      </PageWithSidebar>
-    </Main>
+              ))}
+            </S.Gallery>
+
+            {viewportWidth >= md && (
+              <>
+                {viewerIsOpen && (
+                  <Lightbox
+                    startIndex={startIndex}
+                    images={cases}
+                    setStartIndex={setStartIndex}
+                    setViewerIsOpen={setViewerIsOpen}
+                  />
+                )}
+              </>
+            )}
+          </PageWrapper>
+        </PageWithSidebar>
+      </Main>
+    </>
   );
 };
 

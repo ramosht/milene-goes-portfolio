@@ -5,6 +5,7 @@ import * as S from './styles';
 
 type ComponentProps = {
   current?:
+    | 'jornal-impresso'
     | 'assessoria-de-imprensa'
     | 'gestao-de-crise-institucional'
     | 'marketing-politico'
@@ -21,10 +22,8 @@ const Component: React.FC<ComponentProps> = ({ current }) => {
   return (
     <S.Wrapper>
       <SidebarMenu>
-        <S.Link isCurrent={current === 'portais-de-noticia'}>
-          <LinkSection to="/cases/portais-de-noticia">
-            Jornal Impresso
-          </LinkSection>
+        <S.Link isCurrent={current === 'jornal-impresso'}>
+          <LinkSection to="/cases/jornal-impresso">Jornal Impresso</LinkSection>
         </S.Link>
 
         <S.Link isCurrent={current === 'portais-de-noticia'}>

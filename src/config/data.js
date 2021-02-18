@@ -296,4 +296,46 @@ export default {
       url: '/img/interesses/pensar-fora-da-caixa.png',
     },
   ],
+  jornalImpresso: [
+    {
+      title: 'A mãe substituta de todas as presas',
+      url:
+        'https://drive.google.com/file/d/18JQiHQE6H_YfBHsbJMpzPGXpCiSplfbW/view?usp=sharing',
+    },
+    {
+      title: 'A primeira prova de dedicação',
+      url:
+        'https://drive.google.com/file/d/1HUR6_MgHnkPhyoiwxOcI4GUhv7bdoVQ2/view?usp=sharing',
+    },
+    {
+      title: 'Bem perto da epidemia',
+      url:
+        'https://drive.google.com/file/d/1tyg8WMd8ATSN3r7BX2iVshSe3uWJPBH1/view?usp=sharing',
+    },
+    {
+      title: 'Cuidando da saúde e do aprendizado escolar',
+      url:
+        'https://drive.google.com/file/d/1tyg8WMd8ATSN3r7BX2iVshSe3uWJPBH1/view?usp=sharing',
+    },
+    {
+      title: 'Está faltando professor, mas sobra aluno',
+      url:
+        'https://drive.google.com/file/d/1YsX8DkSiqQuaXD7QHYgLTOXgUOoRGmfo/view?usp=sharing',
+    },
+    {
+      title: 'Matéria depressão 1',
+      url:
+        'https://drive.google.com/file/d/1wjd9FCx37H7pxXN751LYSh7tSoSIejI_/view?usp=sharing',
+    },
+    {
+      title: 'Matéria depressão 2',
+      url:
+        'https://drive.google.com/file/d/1pAx8Zs8tdtXPtOe-QPKASSbKCuVcwNwx/view?usp=sharing',
+    },
+    {
+      title: 'Não é caridade. É dar uma chance ',
+      url:
+        'https://drive.google.com/file/d/10XvSrD_M6OQkR5Xhp2N8cSBs8o2evYqH/view?usp=sharing',
+    },
+  ],
 };

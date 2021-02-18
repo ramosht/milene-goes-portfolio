@@ -16,12 +16,17 @@ export const Case = styled.li`
 
   a {
     color: ${colors.grey};
-    display: block;
+    display: inline-block;
     line-height: 150%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
+
+    &.linkJornalImpresso {
+      text-decoration: italic;
+      border-bottom: 1px dashed ${colors.grey};
+    }
   }
 `;

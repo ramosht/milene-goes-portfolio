@@ -1,29 +1,27 @@
 import { useEffect, useState } from 'react';
 import Data from '../../../config/data';
 import Main from '../../../template/Main';
-import Title from '../../../components/Title';
 import MenuCases from '../../../components/MenuCases';
-import PageWithSidebar from '../../../components/PageWithSidebar';
 import Cases from '../../../components/Cases';
 import Case from '../../../components/Case';
 import PageWrapper from '../../../components/PageWrapper';
+import PageWithSidebar from '../../../components/PageWithSidebar';
 import Head from 'next/head';
 
 type Case = {
   id: string;
   title?: string;
   url?: string;
-  image?: string;
 };
 
 const PageCases = () => {
   const [cases, setCases] = useState<Case[]>([]);
 
   useEffect(() => {
-    const items: Case[] = Data.gestaoCriseInstitucional.map(item => ({
+    const items: Case[] = Data.jornalImpresso.map(item => ({
       id: item.title,
       title: item.title,
-      url: item.link,
+      url: item.url,
     }));
     setCases(items);
   }, []);
@@ -31,32 +29,29 @@ const PageCases = () => {
   return (
     <>
       <Head>
-        <title>Milene Góes | Cases: Gestão de Crise Institucional</title>
+        <title>Milene Góes | Cases: Endomarketing</title>
         <meta
           name="description"
           content="Cases de trabalhos que realizei em veículos de comunicação e em todas as áreas em que atuei"
         />
       </Head>
       <Main current="jobs">
-        <Title>Cases de trabalhos</Title>
         <PageWithSidebar>
-          <MenuCases current="gestao-de-crise-institucional" />
+          <MenuCases current="endomarketing" />
 
           <PageWrapper>
             <Cases>
-              {cases &&
-                cases.map((currentCase: Case) => (
-                  <Case key={currentCase.id}>
-                    <h3>{currentCase.title}</h3>
-                    <a
-                      href={currentCase.url || '#'}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {currentCase.url}
-                    </a>
-                  </Case>
-                ))}
+              <Case>
+                <h3>Jornal Espaço Veólia</h3>
+                <a
+                  href="https://drive.google.com/file/d/17KF7j3ThTu2XID_CngkQ0w4XuMnL9ZJl/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="linkJornalImpresso"
+                >
+                  Ver case
+                </a>
+              </Case>
             </Cases>
           </PageWrapper>
         </PageWithSidebar>

@@ -7,6 +7,7 @@ import PageWithSidebar from '../../../components/PageWithSidebar';
 import Cases from '../../../components/Cases';
 import Case from '../../../components/Case';
 import PageWrapper from '../../../components/PageWrapper';
+import Head from 'next/head';
 
 type Case = {
   id: string;
@@ -28,30 +29,39 @@ const PageCases = () => {
   }, []);
 
   return (
-    <Main current="jobs">
-      <Title>Cases de trabalhos</Title>
-      <PageWithSidebar>
-        <MenuCases current="producao-de-podcast" />
+    <>
+      <Head>
+        <title>Milene Góes | Cases: Produção de Podcast</title>
+        <meta
+          name="description"
+          content="Cases de trabalhos que realizei em veículos de comunicação e em todas as áreas em que atuei"
+        />
+      </Head>
+      <Main current="jobs">
+        <Title>Cases de trabalhos</Title>
+        <PageWithSidebar>
+          <MenuCases current="producao-de-podcast" />
 
-        <PageWrapper>
-          <Cases>
-            {cases &&
-              cases.map((currentCase: Case) => (
-                <Case key={currentCase.id}>
-                  <h3>{currentCase.title}</h3>
-                  <a
-                    href={currentCase.url || '#'}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {currentCase.url}
-                  </a>
-                </Case>
-              ))}
-          </Cases>
-        </PageWrapper>
-      </PageWithSidebar>
-    </Main>
+          <PageWrapper>
+            <Cases>
+              {cases &&
+                cases.map((currentCase: Case) => (
+                  <Case key={currentCase.id}>
+                    <h3>{currentCase.title}</h3>
+                    <a
+                      href={currentCase.url || '#'}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {currentCase.url}
+                    </a>
+                  </Case>
+                ))}
+            </Cases>
+          </PageWrapper>
+        </PageWithSidebar>
+      </Main>
+    </>
   );
 };
 
