@@ -7,6 +7,7 @@ import Case from '../../../components/Case';
 import PageWrapper from '../../../components/PageWrapper';
 import PageWithSidebar from '../../../components/PageWithSidebar';
 import Head from 'next/head';
+import Title from '../../../components/Title';
 
 type Case = {
   id: string;
@@ -36,6 +37,7 @@ const PageCases = () => {
         />
       </Head>
       <Main current="jobs">
+        <Title>Cases de trabalhos</Title>
         <PageWithSidebar>
           <MenuCases current="assessoria-de-imprensa" />
 

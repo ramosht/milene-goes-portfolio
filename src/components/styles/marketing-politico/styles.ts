@@ -13,8 +13,10 @@ export const Thumbnail = styled.img`
 
   @media screen and (min-width: ${md}px) {
     width: 10rem;
-    height: 10rem;
+    height: auto;
     margin: 1rem;
+    object-fit: cover;
+    align-self: flex-start;
 
     &:hover {
       cursor: pointer;

@@ -47,7 +47,7 @@ const Component: React.FC<ComponentProps> = ({ current }) => {
               <Link href="/formacao">Formação</Link>
             </S.MenuItem>
             <S.MenuItem isCurrent={current === 'jobs'}>
-              <Link href="/cases/assessoria-de-imprensa">Trabalhos</Link>
+              <Link href="/cases/jornal-impresso">Trabalhos</Link>
             </S.MenuItem>
             <S.MenuItem isCurrent={current === 'premiacoes'}>
               <Link href="/premiacoes">Premiações</Link>

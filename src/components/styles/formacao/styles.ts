@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { lg, md } from '../../../../styles/breakpoints';
 import { colors } from '../../../../styles/variables';
 
 export const TitleLanguage = styled.h3`
@@ -52,9 +53,29 @@ export const Language = styled.div`
   }
 `;
 
-export const Conhecimentos = styled.ul``;
+export const Conhecimentos = styled.div`
+  @media screen and (min-width: ${md}px) {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
+  }
 
-export const Conhecimento = styled.li`
+  @media screen and (min-width: ${lg}px) {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 1rem;
+  }
+`;
+
+export const Languages = styled.div`
+  @media screen and (min-width: ${md}px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+`;
+
+export const Conhecimento = styled.div`
   color: ${colors.grey};
   margin-bottom: 1.5rem;
   text-transform: uppercase;

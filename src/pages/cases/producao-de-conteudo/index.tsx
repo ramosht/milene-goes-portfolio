@@ -25,7 +25,6 @@ const PageCases = () => {
   const [viewportWidth, setViewportWidth] = useState(0);
 
   useEffect(() => {
-    console.log(window.innerWidth);
     setViewportWidth(window.innerWidth);
   }, []);
 

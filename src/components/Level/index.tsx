@@ -9,11 +9,11 @@ type LevelProps = {
 const Level: FC<LevelProps> = ({ level }) => {
   return (
     <S.Wrapper>
-      <S.Bullet checked={level <= 5} />
-      <S.Bullet checked={level <= 4} />
-      <S.Bullet checked={level <= 3} />
-      <S.Bullet checked={level <= 2} />
-      <S.Bullet checked={level <= 1} />
+      <S.Bullet checked={level >= 1} />
+      <S.Bullet checked={level >= 2} />
+      <S.Bullet checked={level >= 3} />
+      <S.Bullet checked={level >= 4} />
+      <S.Bullet checked={level >= 5} />
     </S.Wrapper>
   );
 };

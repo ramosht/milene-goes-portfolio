@@ -46,14 +46,14 @@ const FormacaoPage = () => {
             />
             <Title>Cursos</Title>
             <Curso
-              title="Do planejamento a Execução de Marketing Digital"
-              university="ESPN"
+              title="Do Planejamento a Execução de Marketing Digital"
+              university="ESPM"
               year="2020"
               description="Escola Superior de Propaganda e Marketing"
             />
             <Curso
               title="A Reinvenção da Comunicação Interna em Tempos de Pandemia"
-              university="ESPN"
+              university="ESPM"
               year="2020"
               description="Escola Superior de Propaganda e Marketing"
             />
@@ -69,30 +69,32 @@ const FormacaoPage = () => {
             />
 
             <Title>Línguas</Title>
-            <S.Language>
-              <S.TitleLanguage>
-                Inglês <span className="category">Intermediário</span>
-              </S.TitleLanguage>
-              <ul>
-                <li>Cursando</li>
-              </ul>
-              <Level level={3} />
-            </S.Language>
-            <S.Language>
-              <S.TitleLanguage>
-                Espanhol <span className="category">Intermediário</span>
-              </S.TitleLanguage>
-              <ul>
-                <li>Escrita</li>
-                <li>Leitura</li>
-                <li>Conversação</li>
-              </ul>
-              <p>
-                Prática em escrita, leitura e conversação com experiência de
-                comunicação com seis países da América Latina.
-              </p>
-              <Level level={2} />
-            </S.Language>
+            <S.Languages>
+              <S.Language>
+                <S.TitleLanguage>
+                  Espanhol <span className="category">Intermediário</span>
+                </S.TitleLanguage>
+                <ul>
+                  <li>Escrita</li>
+                  <li>Leitura</li>
+                  <li>Conversação</li>
+                </ul>
+                <p>
+                  Prática em escrita, leitura e conversação com experiência de
+                  comunicação com seis países da América Latina.
+                </p>
+                <Level level={4} />
+              </S.Language>
+              <S.Language>
+                <S.TitleLanguage>
+                  Inglês <span className="category">Intermediário</span>
+                </S.TitleLanguage>
+                <ul>
+                  <li>Cursando</li>
+                </ul>
+                <Level level={3} />
+              </S.Language>
+            </S.Languages>
 
             <Title>Conhecimentos</Title>
             <S.Conhecimentos>
@@ -103,19 +105,19 @@ const FormacaoPage = () => {
                 Google Analytics <Level level={4} />
               </S.Conhecimento>
               <S.Conhecimento>
-                Facebook ADS <Level level={3} />
-              </S.Conhecimento>
-              <S.Conhecimento>
                 Wordpress <Level level={3} />
               </S.Conhecimento>
               <S.Conhecimento>
-                Postgraim <Level level={5} />
+                Postgrain <Level level={5} />
               </S.Conhecimento>
               <S.Conhecimento>
-                mLabs <Level level={5} />
+                Indesign <Level level={2} />
               </S.Conhecimento>
               <S.Conhecimento>
-                Indesign <Level level={3} />
+                Facebook ADS <Level level={3} />
+              </S.Conhecimento>
+              <S.Conhecimento>
+                MLABS <Level level={5} />
               </S.Conhecimento>
             </S.Conhecimentos>
           </PageWrapper>
