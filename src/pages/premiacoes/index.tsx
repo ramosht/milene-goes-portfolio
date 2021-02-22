@@ -52,8 +52,7 @@ const Page = () => {
           reportagem tratou sobre o projeto pedagógico Classe Hospitalar,
           promovido pelo Governo do Estado de São Paulo e as crianças assistidas
           por esse programa no hospital do câncer infantil de Sorocaba, o GPACI
-          - Grupo de Pesquisa e Assistência ao Câncer Infantil. Confira a
-          reportagem anexa.
+          - Grupo de Pesquisa e Assistência ao Câncer Infantil.
         </Description>
 
         <S.Gallery>
