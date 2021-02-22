@@ -240,6 +240,13 @@ export default {
         'https://searadionaotoca.blogspot.com/2012/04/apesar-da-greve-atendimento-no-chs-e.html',
     },
   ],
+  artigos: [
+    {
+      title: 'Dias de regar, dias de florescer',
+      link:
+        'https://www.linkedin.com/pulse/dias-de-regar-florescer-milene-g%C3%B3es/',
+    },
+  ],
   copywriting: [
     {
       title: 'Diferenças básicas entre MEI e Microempresa',
@@ -315,22 +322,17 @@ export default {
     {
       title: 'Cuidando da saúde e do aprendizado escolar',
       url:
-        'https://drive.google.com/file/d/1tyg8WMd8ATSN3r7BX2iVshSe3uWJPBH1/view?usp=sharing',
+        'https://drive.google.com/file/d/1yY_bNxr3R2OcpQMPWouEvJgHdScCHFWs/view?usp=sharing',
     },
     {
       title: 'Está faltando professor, mas sobra aluno',
       url:
-        'https://drive.google.com/file/d/1YsX8DkSiqQuaXD7QHYgLTOXgUOoRGmfo/view?usp=sharing',
+        'https://drive.google.com/file/d/1kDDmjT7u2zQ2cP8UA8ihFR8GGMEj0TFS/view?usp=sharing',
     },
     {
-      title: 'Matéria depressão 1',
+      title: 'Depressão: doença silenciosa e ameaçadora',
       url:
-        'https://drive.google.com/file/d/1wjd9FCx37H7pxXN751LYSh7tSoSIejI_/view?usp=sharing',
-    },
-    {
-      title: 'Matéria depressão 2',
-      url:
-        'https://drive.google.com/file/d/1pAx8Zs8tdtXPtOe-QPKASSbKCuVcwNwx/view?usp=sharing',
+        'https://drive.google.com/file/d/1bt-jX0tep8TB79eHNTfjd7wlmlVIGjLE/view?usp=sharing',
     },
     {
       title: 'Não é caridade. É dar uma chance ',
@@ -338,4 +340,6 @@ export default {
         'https://drive.google.com/file/d/10XvSrD_M6OQkR5Xhp2N8cSBs8o2evYqH/view?usp=sharing',
     },
   ],
+  curriculoUri:
+    'https://drive.google.com/file/d/1nERyw4NrgLgFjDVJ6ejDJCg9nDPo_4SU/view?usp=sharing',
 };

@@ -3,6 +3,7 @@ import { Linkedin } from '@styled-icons/boxicons-logos/Linkedin';
 import Head from 'next/head';
 import Main from '../template/Main';
 import { colors } from '../../styles/variables';
+import data from '../config/data';
 
 export default function Home() {
   return (
@@ -27,11 +28,7 @@ export default function Home() {
           </div>
 
           <S.CurriculoButton>
-            <a
-              href="https://drive.google.com/file/d/1zoQh1VUr75SbwZI1-0wphCDWVC4EZsE3/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={data.curriculoUri} target="_blank" rel="noreferrer">
               Baixar currículo completo
             </a>
           </S.CurriculoButton>
