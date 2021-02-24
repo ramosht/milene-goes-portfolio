@@ -17,13 +17,6 @@ const ExperienciaPage = () => {
         <Title>Experiência profissional</Title>
 
         <Experiencia
-          title="Assessora de imprensa"
-          company="CRB Construtora / Job"
-          period="11/2020 a 02/2021"
-          description="Assessoria de imprensa: definição de pautas e estratégia de comunicação; produção de releases; follow-up e acompanhamento de entrevistas"
-        />
-
-        <Experiencia
           title="Copywriter – estratégia de SEO"
           company="Blog Siga Pregão / Job "
           period="08 a 12/2020"

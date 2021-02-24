@@ -341,5 +341,5 @@ export default {
     },
   ],
   curriculoUri:
-    'https://drive.google.com/file/d/1nERyw4NrgLgFjDVJ6ejDJCg9nDPo_4SU/view?usp=sharing',
+    'https://drive.google.com/file/d/19BjC_bcASususx_XDRvapAlOZrZ5RaVh/view?usp=sharing',
 };
