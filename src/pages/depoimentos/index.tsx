@@ -43,6 +43,12 @@ const Page = () => {
               name="Rodrigo Buzin Siqueira do Amaral, Gerente Senac Sorocaba"
               text="Nossa instituição preza muito pela qualidade da comunicação e por um relacionamento assertivo com os diversos veículos de imprensa. A Milene prestou serviços durante um bom tempo conosco, sempre coerente com nossas premissas."
             />
+
+            <Depoimento
+              image="/img/depoimentos/marina-figueira.jpeg"
+              name="Marina Figueira, Gerente de Comunicação na Veolia Brasil"
+              text="Milene é uma profissional super dedicada e comprometida com suas entregas. Tem senso de urgência e de responsabilidade e se empenha ao máximo para executar o trabalho da melhor maneira. Tem ótimo relacionamento interpessoal e é humana em suas abordagens."
+            />
           </Slider>
         </S.Wrapper>
       </Main>
