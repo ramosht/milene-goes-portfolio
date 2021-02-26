@@ -20,10 +20,10 @@ const PageCases = () => {
   const [cases, setCases] = useState<Case[]>([]);
 
   useEffect(() => {
-    const items: Case[] = Data.portaisDeNoticia.map(item => ({
+    const items: Case[] = Data.textosParaBlog.map(item => ({
       id: item.title,
       title: item.title,
-      url: item.link,
+      url: item.url,
     }));
     setCases(items);
   }, []);

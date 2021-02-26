@@ -340,6 +340,47 @@ export default {
         'https://drive.google.com/file/d/10XvSrD_M6OQkR5Xhp2N8cSBs8o2evYqH/view?usp=sharing',
     },
   ],
+  textosParaBlog: [
+    {
+      title:
+        'Eduardo Myr, ilustrador e colaborador da Facens, cria game de cartas autoral KRON',
+      url:
+        'https://blog.facens.br/eduardo-myr-ilustrador-e-colaborador-da-facens-cria-game-de-cartas-autoral-kron/',
+    },
+
+    {
+      title: 'Conheça 5 áreas de atuação na Engenharia Agronômica',
+      url:
+        'https://blog.facens.br/conheca-5-areas-de-atuacao-na-engenharia-agronomica/',
+    },
+
+    {
+      title: 'Entretenimento: tecnologias de filmes que viraram realidade!',
+      url:
+        'https://blog.facens.br/entretenimento-tecnologias-de-filmes-que-viraram-realidade/',
+    },
+
+    {
+      title:
+        'Entenda como a Orquestra Sinfônica de Sorocaba fez uma apresentação totalmente online',
+      url:
+        'https://blog.facens.br/entenda-como-a-orquestra-sinfonica-de-sorocaba-fez-uma-apresentacao-totalmente-online/',
+    },
+
+    {
+      title:
+        'TecnoFacens: realidade virtual e gamificação mostram o vasto campo de atuação na tecnologia',
+      url:
+        'https://blog.facens.br/tecnofacens-realidade-virtual-e-gamificacao-mostram-o-vasto-campo-de-atuacao-na-tecnologia/',
+    },
+
+    {
+      title:
+        'Cursos de engenharia do Centro Universitário Facens recebem selo de qualidade',
+      url:
+        'https://blog.facens.br/curos-de-engenharia-do-centro-universitario-facens-recebem-selo-de-qualidade/',
+    },
+  ],
   curriculoUri:
     'https://drive.google.com/file/d/19BjC_bcASususx_XDRvapAlOZrZ5RaVh/view?usp=sharing',
 };
