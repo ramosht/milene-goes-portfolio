@@ -41,7 +41,7 @@ const PageCases = () => {
         <Title>Cases de trabalhos</Title>
 
         <Description>
-          Os textos foram escritos Descriptionor mim para o blog da Faculdade de
+          Os textos foram escritos por mim para o blog da Faculdade de
           Engenharia de Sorocaba (Facens) em novembro de 2020. No entanto, como
           foi um job de 15 dias, o nome da autoria continuou como o da equipe do
           marketing da Facens.
